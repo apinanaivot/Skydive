@@ -1,0 +1,22 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "vs2022",
+      "displayName": "Visual Studio 2022 (x64), vcpkg",
+      "generator": "Visual Studio 17 2022",
+      "architecture": "x64",
+      "binaryDir": "${sourceDir}/../build/skse",
+      "toolchainFile": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/vcpkg/scripts/buildsystems/vcpkg.cmake",
+      "cacheVariables": {
+        "VCPKG_TARGET_TRIPLET": "x64-windows-static-md",
+        "VCPKG_HOST_TRIPLET": "x64-windows-static-md",
+        "SKYRIM_DATA_DIR": "C:/Program Files (x86)/Steam/steamapps/common/Skyrim Special Edition/Data"
+      }
+    }
+  ],
+  "buildPresets": [
+    { "name": "release", "configurePreset": "vs2022", "configuration": "Release" },
+    { "name": "debug", "configurePreset": "vs2022", "configuration": "Debug" }
+  ]
+}

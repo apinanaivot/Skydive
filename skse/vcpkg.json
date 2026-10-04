@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "jc2mech-skse",
+  "version-string": "0.1.0",
+  "description": "CommonLibSSE-NG v9.3.0 dependencies (FetchContent builds CommonLib itself), Dear ImGui for the options menu.",
+  "dependencies": [
+    "directxmath",
+    "directxtk",
+    "fmt",
+    {
+      "name": "imgui",
+      "features": ["dx11-binding"]
+    },
+    "nlohmann-json",
+    "rapidcsv",
+    "simpleini",
+    "spdlog",
+    "toml11",
+    "xbyak"
+  ]
+}

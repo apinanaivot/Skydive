@@ -1,0 +1,13 @@
+build/
+out/
+.vs/
+*.user
+__pycache__/
+
+# Anything built from Just Cause 2 stays local.
+extracted/
+*.wav
+*.nif
+*.dds
+*.ban
+*.bsk
