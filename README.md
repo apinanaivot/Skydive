@@ -8,7 +8,7 @@ of Just Cause 2 by the asset installer in installer/.
 
 ## Installing
 
-Download the zip from Releases (same file as on Nexus Mods), then follow installer/README.txt:
+Download the zip from [Releases](../../releases), then follow installer/README.txt:
 
 1. Install the zip like any SKSE mod (MO2, Vortex or by hand).
 2. Run Skydive Installer\Skydive-Installer.exe from the installed mod once. It finds Just Cause 2 and
