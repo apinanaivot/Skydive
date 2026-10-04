@@ -18,7 +18,7 @@ Download the zip from [Releases](../../releases) (the same file as on Nexus Mods
 Requirements: SKSE64, Address Library for SKSE Plugins, Just Cause 2 (any version). Tested on
 Skyrim 1.7.104.
 
-## What's here
+## Structure
 
 | Folder | |
 |---|---|
@@ -50,7 +50,7 @@ python -m pip install numpy lz4 miniaudio
 python installer/install.py
 ```
 
-**Release zip** (the plugin, the ini, the frozen installer and the readme; what goes on Nexus):
+**Release zip** (the plugin, the ini, the frozen installer and the readme):
 
 ```
 python -m pip install pyinstaller numpy lz4 miniaudio
